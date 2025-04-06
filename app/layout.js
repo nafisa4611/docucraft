@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Header from "../Components/Header";
-import { getDocuments } from "../utils/doc-util";
+import { getDocuments } from "../lib/doc";
 import { Suspense } from "react";
 import Loading from "../Components/Loading";
 
