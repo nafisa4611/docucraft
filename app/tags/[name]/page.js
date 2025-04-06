@@ -1,7 +1,7 @@
 
-import ContentDisplay from "@/components/ContentDisplay"
-import { getDocuments } from "@/lib/doc"
-import { getDocumentsByTag } from "@/utils/doc-util"
+import ContentDisplay from "../../../Components/ContentDisplay"
+import { getDocuments } from "../../../lib/doc"
+import { getDocumentsByTag } from "../../../utils/doc-util"
 
 const TagPage = ({params: {name}}) => {
     const docs = getDocuments();

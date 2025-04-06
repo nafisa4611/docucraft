@@ -1,5 +1,5 @@
-import { getDocuments } from "@/lib/doc";
-import { getDocumentsByAuthor } from "@/utils/doc-util";
+import { getDocuments } from "../lib/doc";
+import { getDocumentsByAuthor } from "../utils/doc-util";
 
 import ContentDisplay from "@/components/ContentDisplay";
 

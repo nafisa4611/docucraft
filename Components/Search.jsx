@@ -1,7 +1,7 @@
 'use client'
 
 import {useState} from 'react';
-import { useDebounce } from "@/hooks/useDebounce"
+import { useDebounce } from "../hooks/useDebounce"
 import Image from 'next/image';
 import SearchResult from './SearchResult';
 import { useRouter } from 'next/navigation';
