@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-import { getDocumentsByTag, getDocumentsByAuthor, getDocumentsByCategory } from "@/utils/doc-util";
+import { getDocumentsByTag, getDocumentsByAuthor, getDocumentsByCategory } from "../utils/doc-util";
 
 
 const Sidebar = ({ docs }) => {
